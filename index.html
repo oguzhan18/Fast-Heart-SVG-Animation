@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Fast  Heart</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<svg id="mainSVG"viewBox="0 0 800 600">
+<defs>
+	<path class="defaultPath" />
+	<g class="smallHeart" opacity="0">
+	<circle fill="#E8485C" cx="31.5" cy="31.5" r="31.5"/>
+<path  fill="white" d="M49.7,32.2C47.3,43.3,31.5,51,31.5,51s-15.5-8.2-18.2-18.8c-2.5-9.7,8.5-20.5,18.2-9.8
+		C42,13.2,51.8,22.4,49.7,32.2z"/>	
+	</g>
+	</defs>
+	<image xlink:href="https://assets.codepen.io/4118007/internal/avatars/users/default.png?fit=crop&format=auto&height=512&version=1612912528&width=512" width="800" height="500" class="image"/>
+	<g id="heartContainer"/>
+			<g id="heart" class="mainHeart" transform="translate(350 480)">
+			<circle fill="#E8485C" cx="51.5" cy="51.5" r="51.5"/>
+			
+	<path id="whiteHeart" fill="black" d="M79.6,48C75.9,65.1,51.5,77,51.5,77S27.6,64.3,23.5,48c-3.8-15,13.1-31.7,28.1-15.1C67.8,18.6,82.9,32.8,79.6,48z"/>
+			</g>
+</svg>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/3.1.1/gsap.min.js'></script>
+<script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/MotionPathPlugin.min.js?v=8'></script>
+<script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/DrawSVGPlugin3.min.js'></script>
+<script  src="./script.js"></script>
+</body>
+</html>
